@@ -9,6 +9,9 @@
      * @constructor
      */
     function App($log, $rootScope) {
+
+        $log.debug('App::run');
+
         $rootScope.$on('$stateChangeError',
             function (event, toState, toParams, fromState, fromParams, error) {
                 var data = error && error.data;
@@ -35,7 +38,9 @@
         $locationProvider.html5Mode(true);
     }
 
-    app.config(['$locationProvider', Config]);
+    app.config([
+        '$locationProvider',
+        Config]);
 
 })(angular.module('App', [
     'ui.router',

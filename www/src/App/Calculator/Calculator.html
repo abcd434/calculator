@@ -1,0 +1,12 @@
+<table class="app-calculator">
+    <tbody>
+        <tr class="app-calculator-row">
+            <td colspan="4"></td>
+        </tr>
+        <tr class="app-calculator-row" ng-repeat="row in btnLayout track by $index">
+            <td class="app-calculator-cell" ng-repeat="btnId in row track by $index">
+                <div class="app-calculator-btn">{{btnId}}</div>
+            </td>
+        </tr>
+    </tbody>
+</table>

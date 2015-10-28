@@ -1,0 +1,33 @@
+@import "../Config";
+
+.app-calculator {
+  $border: 15px;
+
+  border-collapse: collapse;
+  border: $border solid transparent;
+
+  &, tbody {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-row {
+    width: 100%;
+    height: (100% / 6);
+  }
+
+  &-cell {
+    position: relative;
+    width: (100% / 4);
+    border: $border solid transparent;
+  }
+
+  &-btn {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
