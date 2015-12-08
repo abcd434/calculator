@@ -1,6 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+/.extra
 /.idea
 /.sass-cache
+/www/.extra
 /www/bower
 /vendor
 /www/index.html

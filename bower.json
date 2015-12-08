@@ -21,6 +21,7 @@
     "lodash": "~3.10.0",
     "compass-mixins": "~1.0.2",
     "jquery": "~2.1.4",
-    "angular-assert": "~1.0.1"
+    "angular-assert": "~1.0.1",
+    "thinkingmedia-ui": "~1.0.0"
   }
 }
